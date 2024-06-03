@@ -169,11 +169,11 @@
     }
 
 
-    /* .modal-overlay.is-open {
-    visibility: visible;
-    opacity: 1;
-    pointer-events: auto;
-} */
+    .modal-overlay.is-open {
+        visibility: visible;
+        opacity: 0;
+        pointer-events: auto;
+    }
 
 
     .modal {

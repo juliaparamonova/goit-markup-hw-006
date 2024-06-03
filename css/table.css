@@ -189,13 +189,20 @@
     }
 
     .checkbox-user {
-        width: 338px;
+        width: 16px;
+
     }
 
     /* menu */
 
     .menu-social {
         margin-bottom: 72px;
+    }
+
+    .modal-overlay.is-open {
+        visibility: visible;
+        opacity: 0;
+        pointer-events: auto;
     }
 
 }

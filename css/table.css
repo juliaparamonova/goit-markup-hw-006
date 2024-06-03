@@ -199,10 +199,5 @@
         margin-bottom: 72px;
     }
 
-    .modal-overlay.is-open {
-        visibility: visible;
-        opacity: 0;
-        pointer-events: auto;
-    }
 
 }

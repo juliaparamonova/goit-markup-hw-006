@@ -1,0 +1,160 @@
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding: 0 15px;
+    }
+
+
+    .container .header {
+        max-width: 1440px;
+    }
+
+    .address-link {
+        gap: 40px;
+        flex-direction: row;
+    }
+
+    .my-mail {
+        padding: 24px 0;
+        margin-right: 15px;
+    }
+
+
+    .logo {
+        margin-right: 76px;
+    }
+
+    /* sec 1 */
+
+    .title {
+        max-width: 1440px;
+        padding: 188px 0;
+    }
+
+    .title .container {
+        gap: 0;
+        padding: 0;
+    }
+
+    .section-title {
+        margin-bottom: 48px;
+    }
+
+    /* sec 2 */
+
+    .strategy {
+        padding: 120px 0;
+    }
+
+    .title-class {
+        display: flex;
+        gap: 24px;
+        flex-wrap: nowrap;
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f4fd;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        height: 112px;
+    }
+
+    .class-item {
+        width: 264px;
+    }
+
+    .first-class {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .strategy-title {
+        font-weight: 400;
+    }
+
+    /* sec 3 */
+
+    .team {
+        padding: 120px 0;
+    }
+
+    .team-list {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+    /*  sec 4 */
+
+    .class-portfolio {
+        padding: 120px 0;
+        color: #2e2f42;
+    }
+
+    .list-team-portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 48px 24px;
+    }
+
+    .item-team-list {
+        width: calc((100% - (24px * 2)) / 3);
+    }
+
+    .class-portfolio .item-team {
+        width: 359.33px;
+    }
+
+    /* footer */
+
+    .about {
+        padding: 100px 0;
+    }
+
+    .about .container {
+        width: 1158px;
+        justify-content: flex-start;
+        align-items: baseline;
+        gap: 0;
+        padding-left: 15px;
+    }
+
+    /* .footer-box {
+        margin-right: 120px;
+    } */
+
+    .about-title {
+        margin-bottom: 0;
+    }
+
+    .footer-text-right {
+        margin-right: 120px;
+    }
+
+    .social-block {
+        margin-right: 80px;
+        margin-bottom: 0;
+    }
+
+    .social-footer-item {
+        margin-bottom: 0;
+    }
+
+    .input-sub-block {
+        opacity: 1;
+    }
+
+
+
+
+
+
+
+
+}

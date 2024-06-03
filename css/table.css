@@ -1,0 +1,188 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 16px;
+    }
+
+    .header-nav,
+    .address {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        margin-right: 120px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .title-sub-nav,
+    .address-link {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .address-link {
+        flex-direction: column;
+    }
+
+    /* .title-list-item-first,
+    .title-list-item,
+    .my-mail {
+        margin-right: 20px;
+    } */
+
+
+    .first-class {
+        text-align: left;
+    }
+
+    .my-mail:last-child {
+        margin-right: 0;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    /* sec 1 */
+
+    .title .container {
+        gap: 0;
+    }
+
+    .title {
+        max-width: 768px;
+        padding: 112px 0;
+    }
+
+    .section-title {
+        max-width: 496px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        /* text-align: center; */
+        margin-bottom: 36px;
+    }
+
+    /* sec 2 */
+
+    .title-class {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
+
+    .class-item {
+        max-width: 356px;
+    }
+
+    /* .first-class {
+        text-align: start;
+    } */
+
+    .first-class.strategy-title {
+        text-align: start;
+    }
+
+
+    /* sec 3 */
+
+    .team-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 64px 24px;
+        margin: 0;
+        justify-content: center;
+    }
+
+    /* sec 4 */
+
+    .list-team-portfolio {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 74px 22px;
+    }
+
+    .item-team-list {
+        width: 356px;
+        height: 420px;
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .class-portfolio .frs-team {
+        width: 356px;
+    }
+
+
+
+    /* footer */
+
+
+    /* .about {
+        padding: 96px 0 96px 108px;
+    } */
+
+    .about .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        align-items: flex-start;
+        padding-left: 108px;
+    }
+
+    .about .container .footer-box {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: flex-start;
+        gap: 24px;
+    }
+
+    .logo-footer {
+        text-align: start;
+    }
+
+    .footer-text-right {
+        width: 264px;
+    }
+
+    .social-name {
+        text-align: start;
+    }
+
+    .subscribe {
+        text-align: start;
+    }
+
+    .subscribe-form {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    /* modal */
+
+    .modal {
+        width: 408px;
+        padding: 72px 24px 24px 24px;
+    }
+
+    .checkbox-user {
+        width: 338px;
+    }
+
+    /* menu */
+
+    .menu-social {
+        margin-bottom: 72px;
+    }
+
+}

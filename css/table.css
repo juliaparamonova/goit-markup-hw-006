@@ -146,6 +146,18 @@
         gap: 24px;
     }
 
+
+    .footer-box {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .social-footer-item {
+        gap: 16px;
+    }
+
+
+
     .logo-footer {
         text-align: start;
     }

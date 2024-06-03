@@ -1089,7 +1089,7 @@ button {
 
 .social-footer-item {
     display: flex;
-    gap: 40px;
+    gap: 16px;
     align-items: center;
     justify-content: space-around;
 }
